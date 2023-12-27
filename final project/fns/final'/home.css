@@ -1,0 +1,249 @@
+.nav-link{
+    font-family: 'Fatsans', sans-serif;
+    font-family: 'FatsansContur', sans-serif;
+    font-family: 'FatsansRotated', sans-serif;
+    font-family: 'FatsansShadow', sans-serif;
+    font-size: xx-large;
+    color: rgb(18, 46, 18);
+}
+
+
+.navi{
+    font-family: 'FatsansRotated', sans-serif;
+    font-size: 500%;
+    color: cadetblue;
+   
+                                                
+}
+
+
+.kimi{
+    font-family: 'Borcer', sans-serif; 
+    text-align: center;  
+    font-size: 200%;                                 
+}
+
+.about{
+    font-family: 'Noto Serif Lao', sans-serif;
+    text-align: center;
+                                                
+}
+
+ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#691d83;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(1);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#dd80ce;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);}
+
+   .navbar nav {
+    background-color: rgb(84, 66, 66);
+
+    }
+    .product{
+        max-width: 12em;
+        background-color: #603737;
+        padding: 1em;
+        box-shadow: 0 5px 5px #ea00ff;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        transition: 1.0s ease-in-out;
+    }
+
+  
+    .product h4{
+      color: #e1e1e1;
+      font-family: 'JAFERON Trial', sans-serif;
+
+    }
+
+    
+
+
+    .product:hover button{
+        color: #000;
+        background-color: #fff;
+    
+    }
+    .root{
+        margin-top: 100px;
+        margin-left: 250px;
+        background-color: rgb(209, 133, 46);
+    }
+    
+    .pics{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+.foot {
+  background-color: #691d83;
+  border-radius: 1%;
+  background-attachment: fixed;
+  background-position: 100%;
+}
+
+.foot h6{
+  color: #e1e1e1;
+  font-family: 'Times New Roman', Times, serif;
+}
+.foot img{
+  width: 10%;
+  border-radius: 5%;
+  margin-left: 45%;
+
+}
+
+.foot h5{
+  color: #e1e1e1;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 75%;
+  font-size: small;
+}
+
+.product tbody{ 
+  justify-content: flex-start;
+  align-items: first baseline ;
+}
+
+.content{
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+  padding: 70px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.brand{
+  font-family: 'Borcer', sans-serif; 
+    color:#000000;
+    box-shadow: 0 5px 5px #ea00ff;
+    box-sizing: border-box;
+    text-shadow: #ea00ff;
+  
+}
+
+.bg{
+  background-attachment: fixed;
+  background-color: #e8bee1;
+}
+
+ @media screen and (min-width:768px) and (max-width:1023px) {
+  .nav-link{
+    font-size: small;
+    color: brown;
+    }
+
+
+
+    body{
+     margin: 1%;
+     margin-bottom:5%;
+     overflow: auto;
+    }
+
+
+    .product{
+      max-width: 12em;
+      background-color: #847373;
+      padding: 1em;
+      box-shadow: 0 5px 5px #ea00ff;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      transition: 1.0s ease-in-out;
+      text-align: center;
+      margin-left: 29%;
+  }
+
+  .content{
+    background-color: #30252e;
+    border-radius: 3%;
+    display:block;
+    padding: 70px;
+   
+  }
+  .nav-link{
+    color: rgb(18, 46, 18);
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+}
+*{
+  overflow: scroll;
+}
+ }
+
+ @media screen and (max-width:767px){
+  body{
+    overflow: scroll;
+  }
+  .content{
+    background-color: #30252e;
+    border-radius: 3%;
+    display:block;
+    padding: 70px;
+   
+  
+  }
+
+  .product{
+    max-width: 12em;
+    background-color: #847373;
+    padding: 1em;
+    box-shadow: 0 5px 5px #ea00ff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1.0s ease-in-out;
+    text-align: center;
+    margin-left: 29%;
+}
+
+
+
+ }

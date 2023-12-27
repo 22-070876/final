@@ -1,0 +1,31 @@
+.container{
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 2%;
+    border-radius: 3%;
+}
+.card-body h5{
+    font-family: 'd La Cruz', sans-serif;
+    color:maroon;
+    font-size:200%;
+    align-items: center;
+    text-align: center;
+}
+.card-title div{
+    align-items: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-text{
+    font-family: 'JAFERON Trial', sans-serif;
+}
+
+.btn a{
+    color: black;
+}
+
+a{
+    text-align: center;
+}
